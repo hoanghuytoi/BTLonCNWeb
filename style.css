@@ -396,7 +396,7 @@ footer{
 .buy-header{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/buy-car.JPG);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/buy-car.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -482,7 +482,7 @@ footer{
 .search-header{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/search-car.JPG);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/search-car.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
