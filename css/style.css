@@ -8,7 +8,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/background.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Image/background.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -470,7 +470,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Image/contact.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Image/contact.jpg);
     background-position: center;   
     background-size: cover;
     border-radius: 10px;
@@ -516,7 +516,7 @@ h3{
 footer{
     bottom: 0px;
     width: 100%;
-    background-image: linear-gradient(rgba(84, 84, 84, 0.7),rgba(86, 86, 86, 0.7)),url(Image/BACKGROUND-FOOTER-1.jpg);
+    background-image: linear-gradient(rgba(84, 84, 84, 0.7),rgba(86, 86, 86, 0.7)),url(../Image/BACKGROUND-FOOTER-1.jpg);
 }
 .main-content{
     display: flex;
@@ -685,40 +685,22 @@ footer{
     margin-left: 50px;
 }
 
-/* Buy Car */
-.buy-header{
-    height: 80vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/buy-car.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-}
-.buy-header h1{
-    color: #fff;
-    margin-top: 200px;
-    font-size: 50px;
-}
-
-
-
 
 
 
 
 
 /* price Car */
-.price-header{
+.product-header{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/price-car.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Image/price-car.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #ffffff;
 }
-.price-header h1{
+.product-header h1{
     color: #fff;
     margin-top: 100px;
     font-size: 50px;
@@ -731,16 +713,16 @@ footer{
 
 
 /* advise Car */
-.advise-header{
+.addvised-header{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/advise-car.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Image/advise-car.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #ffffff;
 }
-.advise-header h1{
+.addvised-header h1{
     color: #fff;
     margin-top: 100px;
     font-size: 50px;
@@ -754,34 +736,13 @@ footer{
 .new-header{
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/new-car.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Image/new-car.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #ffffff;
 }
 .new-header h1{
-    color: #fff;
-    margin-top: 100px;
-    font-size: 50px;
-}
-
-
-
-
-
-
-/* search Car */
-.search-header{
-    height: 80vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Image/search-car.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-}
-.search-header h1{
     color: #fff;
     margin-top: 100px;
     font-size: 50px;
