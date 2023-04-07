@@ -309,3 +309,68 @@
     text-align: center;
     margin-top: 1vw;
 }
+/*-------------------------------lasted collection------------*/
+#collection{
+    margin-top: 5vw;
+}
+.img-car7{
+    width: 100%;
+}
+.car-collection{
+    width: 22vw;
+    height: 22.5vw;
+    border: 0.1vw solid lightgray;
+    border-radius: 1.5vw;
+   
+}
+.car-col-infor{
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+}
+.car-col-name{
+    color: var(--black-color);
+    font-size: 1.5vw;
+}
+.car-col-price{
+    color: var(--red-color);
+    font-size: 1.5vw;
+}
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+   
+}
+.col-year{
+    font-size: 1vw;
+    color: var(--black-color);
+}
+.car-col-more{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.img-col-more{
+    width: 30%;
+    
+}
+.infor-car-col{
+    color: var(--black-color);
+    margin-top: -1vw;
+    margin-bottom: 0.5vw;
+}
+.bt-col-view{
+    background-color: var(--red-color);
+    width: 15vw;
+    height: 2vw;
+    border-radius: 1vw;
+    margin-right: 2.5vw;
+}
+.collection1{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#col2{
+    margin-top: 2vw;
+}
