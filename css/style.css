@@ -493,9 +493,11 @@ p{
 
 /* fotter Super car*/
 .fotter{
+    margin-top: 50px;
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    border-top: 1px solid #b7b7b7;
 }
 .fotter h3{
     color: #000;
@@ -870,9 +872,6 @@ footer{
     display: flex;
 }
 /** main ***/
-main{
-    border-bottom: 2px solid #afafaf;
-}
 
 main a{
     padding: 15px 0;
