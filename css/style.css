@@ -702,26 +702,6 @@ footer{
 
 
 
-
-
-
-
-/* advise Car */
-.addvised-header{
-    height: 80vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Image/advise-car.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-}
-
-
-
-
-
-
 /* new Car */
 .new-header{
     height: 80vh;
@@ -1125,4 +1105,108 @@ main a:hover{
     .banner{
         grid-template-columns: 1fr 2fr;
     }
+}
+
+/* advise Car */
+.addvised-header{
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Image/advise-car.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+.service_container{
+    margin-bottom: 100px;
+}
+.service_title_sub{
+    margin-top: 50px;
+    text-align: center;
+}
+.service_title_sub h2{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.service_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.service_title h3{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.service_title_left_sub_one{
+    margin-top: 10px;
+    border: 1px solid #999;
+    border: none;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+.service_title_left_sub_one span{
+    padding: 14px;
+}
+.Image_dvu{
+    margin-top: 40px;
+}
+.Image_dvu h3{
+    font-size: 25px;
+    text-align: center;
+}
+.img_dvu_sub img{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 450px;
+    height: 300px;
+}
+.img_dvu_sub{
+    display: flex;
+}
+.consulting_questions_answers{
+    margin-top: 50px;
+}
+.consulting_questions_answers h3{
+    text-align: center;
+}
+.form_question{
+    display: flex;
+}
+.form_question_left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.form_question_left input{
+    padding: 10px;
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+.form_question_right{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.form_question_right textarea{
+    padding: 15px;
+    width: 700px;
+    height: 115px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 5px;
+}
+.form_question_right button{
+    margin-top: 20px;
+    padding: 15px;
+    width: 700px;
+    height: 50px;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 5px;
 }
