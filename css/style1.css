@@ -1,0 +1,39 @@
+:root{
+    --red-color:#F00505;
+    --black-color:black;
+}
+#best{
+    color: var(--red-color);
+}
+.search{
+    float: left;
+    margin-left: 15%;
+}
+.search1{
+    text-align: left;
+    font-size: 4vw;
+}
+.search_infor{
+    font-size: 1.2vw;
+    text-align: left;
+}
+#input_search{
+    width: 30vw;
+    text-align: left;
+    float: left;
+    margin-top: 2vw;
+    height: 3vw;
+    border-radius: 1vw;
+    background-color: rgb(255, 255, 255,21%);
+    color: white;
+    padding-left: 3vw;
+}
+.search2{
+    display: flex;
+}
+#icon_search{
+    position: absolute;
+    margin-top: 2.2vw;
+    margin-left: 1vw;
+    
+}
